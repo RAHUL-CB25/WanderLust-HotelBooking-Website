@@ -76,7 +76,7 @@ const store = MongoStore.create({
   touchAfter:24*3600,
  });
 
- store.on("error",(err)=>{
+ store.on("error",()=>{
     console.log("error in Mongo  session Store",err)
  });
 
@@ -112,25 +112,25 @@ const sessionOptions = {
   passport.deserializeUser(User.deserializeUser());
 
 
-// app.use((req,res,next)=>{
-//     console.log("User:", req.user); // Debugging
-//     res.locals.success = req.flash("success") || ""  // Ensure `success` is always an array
-//     res.locals.error = req.flash("error") || "";
-//     res.locals.currUser = req.user || null;  // Prevent `currUser` from being undefined
-//     next()
-// })
+app.use((req,res,next)=>{
+    console.log("User:", req.user); // Debugging
+    res.locals.success = req.flash("success") || ""  // Ensure `success` is always an array
+    res.locals.error = req.flash("error") || "";
+    res.locals.currUser = req.user || null;  // Prevent `currUser` from being undefined
+    next()
+})
 
-app.use((req, res, next) => {
-  console.log("User:", req.user); // Debugging
-  console.log("Flash Messages - Success:", req.flash("success")); // Debugging
-  console.log("Flash Messages - Error:", req.flash("error")); // Debugging
+// app.use((req, res, next) => {
+//   console.log("User:", req.user); // Debugging
+//   console.log("Flash Messages - Success:", req.flash("success")); // Debugging
+//   console.log("Flash Messages - Error:", req.flash("error")); // Debugging
 
-  res.locals.success = req.flash("success") || []; // Ensure `success` is always an array
-  res.locals.error = req.flash("error") || [];
-  res.locals.currUser = req.user || null; 
+//   res.locals.success = req.flash("success") || []; // Ensure `success` is always an array
+//   res.locals.error = req.flash("error") || [];
+//   res.locals.currUser = req.user || null; 
 
-  next();
-});
+//   next();
+// });
 
    
 
