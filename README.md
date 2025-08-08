@@ -1,5 +1,5 @@
  Wanderlust - My Journey, My Story
-Not all those who wander are lost."**
+Not all those who wander are lost."
 
 Welcome to my travel diary project – a digital expression of my **deep passion for exploring the world**, new cultures, scenic places, and hidden gems. This isn't just a website; it's a reflection of 
 **my wanderlust**, my dreams, and the footprints I've left (and plan to leave) across the globe.
