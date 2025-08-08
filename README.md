@@ -5,11 +5,17 @@ Welcome to my travel diary project – a digital expression of my **deep passion
 **my wanderlust**, my dreams, and the footprints I've left (and plan to leave) across the globe.
 
 ✨ About
-This project is a personal travel log and platform where I share:
-- 📸 Stunning photos from my journeys
-- 📝 Stories and experiences that touched my heart
-- 📍 Travel tips and must-visit places
-- 🌐 My bucket list destinations
+This project is a personal travel platform where you can:
+
+🏨 Book hotels and homes across the world with ease
+
+✍️ Share your journey, reviews, and unforgettable travel experiences
+
+📸 Discover stunning travel photos from fellow explorers
+
+📍 Get insider travel tips and recommendations for must-visit places
+
+🌍 Explore and add to your own bucket list destinations
 
 Every part of this site was designed with love, and coded with care, to represent my vision of adventure and connection.
 
@@ -31,8 +37,8 @@ Any edits might affect the hosted site. Thank you for respecting this!
 ## 🛠️ Tech Stack
 
 - HTML, CSS, JavaScript
-- [Optional: Any framework if used]
-- Hosted on: [Render / Netlify / Vercel / etc.]
+- node.js,express.js mongodb ,react
+- Hosted on:Render 
 
 ---
 
